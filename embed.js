@@ -1,5 +1,5 @@
 (function() {
-    var domainsUrl = "https://cdn.jsdelivr.net/gh/metclafe/embedjs/list.json";
+    var domainsUrl = "https://cdn.jsdelivr.net/gh/metclafe/embedjs@main/list.json";
   
     fetch(domainsUrl)
       .then(res => res.json())
